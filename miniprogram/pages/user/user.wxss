@@ -1,0 +1,166 @@
+/* pages/user/user.wxss */
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(223, 230, 240);
+}
+.top-main {
+  width: 100%;
+  height: 20vh;
+  background-color: #FFC98B;
+  position: relative;
+}
+.top-css-cube1, .top-css-cube2, .top-css-cube3 {
+  position: absolute;
+  top: -4%;
+  left: 15%;
+  transform: rotate(45deg) translate3d(3.06667rem, 0, 0);
+  background-image: linear-gradient(225deg, hsla(0, 0%, 100%, .4), hsla(0, 0%, 100%, 0));
+}
+.top-css-cube1 {
+  width: 3vh;
+  height: 15vh;
+}
+.top-css-cube2 {
+  width: 3vh;
+  height: 10vh;
+}
+.top-css-cube3 {
+  width: 3vh;
+  height: 18vh;
+}
+.top-css1, .top-css2, .top-css3 {
+  position: absolute;
+	width: 5.33333rem;
+	height: 1.2rem;
+  animation: cube-cnt 1.5s ease-in-out infinite alternate;
+}
+.top-css1 {
+  top: -2vh;
+	left: 5vh;
+}
+.top-css2 {
+  top: 0;
+  right: 20vh;
+}
+.top-css3 {
+  top: -5vh;
+  right: 5vh;
+}
+@keyframes cube-cnt {
+  0% {
+    transform: translateZ(0);
+  }
+  100% {
+    transform: translate3d(.20667rem, -.20667rem, 0);
+  }
+}
+.top-css-cube1 text{
+  position: absolute;
+  top: -6%;
+  left: 20%;
+  width: 1.95vh;
+  height: 2.1vh;
+  background-color: white;
+  opacity: .8;
+  transform: rotate(45deg) skew(-10deg);
+}
+.top-css-cube2 text{
+  position: absolute;
+  top: -10%;
+  left: 22%;
+  width: 1.95vh;
+  height: 2.1vh;
+  background-color: white;
+  opacity: .8;
+  transform: rotate(45deg) skew(-10deg);
+}
+.top-css-cube3 text{
+  position: absolute;
+  top: -6%;
+  left: 20%;
+  width: 1.95vh;
+  height: 2.1vh;
+  background-color: white;
+  opacity: .8;
+  transform: rotate(45deg) skew(-10deg);
+}
+.user-pic {
+  width: 12vh;
+  height: 12vh;
+  background-color: wheat;
+  border: 5rpx solid white;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.user-pic image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+.user-text {
+  position: absolute;
+  color: #FFC98B;
+  font-size: 40rpx;
+  text-align: center;
+  line-height: 20vh;
+  top: 20vh;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  width: 100%;
+  height: 15vh;
+}
+.colPart {
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  height: 30vh;
+  margin-top: 15vh;
+  border-top: 1rpx solid rgb(237, 239, 241);
+}
+.myCol {
+  position: absolute;
+  display: block;
+  left: 15vh;
+  width: 100%;
+  height: 10vh;
+  line-height: 10vh;
+}
+.myCol image {
+  position: absolute;
+  width: 66rpx;
+  height: 54rpx;
+  left: -10vh;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.myCourses {
+  border-bottom: 1rpx solid rgb(237, 239, 241);
+}
+.myCorrections {
+  top: 10vh;
+  border-bottom: 1rpx solid rgb(237, 239, 241);
+}
+.myCorrections image {
+  left: -9.5vh;
+  width: 53.8rpx;
+}
+.myMessage {
+  top: 20vh;
+}
+.arrow {
+  position: absolute;
+  right: 100px;
+  top: 50%;
+  transform: translate(-150%, -50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  border-top: 3px solid rgb(139, 127, 113);
+  border-right: 3px solid rgb(139, 127, 113);
+}

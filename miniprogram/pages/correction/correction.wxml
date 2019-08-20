@@ -1,0 +1,6 @@
+<!--pages/correction/correction.wxml-->
+<view class="container">
+  <swiper class="">
+
+  </swiper>
+</view>

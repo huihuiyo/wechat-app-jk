@@ -1,0 +1,40 @@
+<!--pages/user/user.wxml-->
+<view class="container">
+  <view class="topPart">
+    <view class="top-main"></view>
+    <view class="top-css1">
+      <view class="top-css-cube1"><text></text></view>
+    </view>
+    <view class="top-css2">
+      <view class="top-css-cube2"><text></text></view>
+    </view>
+    <view class="top-css3">
+      <view class="top-css-cube3"><text></text></view>
+    </view>
+  </view>
+  <view class="userPart">
+    <view class="user-pic">
+      <image src="../../images/login1.png"></image>
+    </view>
+    <view class="user-text">
+      <text>请登录</text>
+    </view>
+  </view>
+  <view class="colPart">
+    <view class="myCol myCourses">
+      <image src="../../images/user-col/kecheng.png"></image>
+      <text>我的课程</text>
+      <text class="arrow"></text>
+    </view>
+    <view class="myCol myCorrections">
+      <image src="../../images/user-col/pigaishenqing.png"></image>
+      <text>我的批改</text>
+      <text class="arrow"></text>
+    </view>
+    <view class="myCol myMessage">
+      <image src="../../images/user-col/message.png"></image>
+      <text>我的留言</text>
+      <text class="arrow"></text>
+    </view>
+  </view>
+</view>

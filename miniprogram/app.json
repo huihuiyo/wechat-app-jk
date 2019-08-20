@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/correction/correction",
+    "pages/user/user",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFC98B",
+    "navigationBarTitleText": "快船申论",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#FFB284",
+    "borderStyle": "white",
+    "backgroundColor": "#EDEDED",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/bar-icon1/liebiao.png",
+        "selectedIconPath": "images/bar-icon2/liebiao.png",
+        "text": "课程列表"
+      },
+      {
+        "pagePath": "pages/correction/correction",
+        "iconPath": "images/bar-icon1/pigai.png",
+        "selectedIconPath": "images/bar-icon2/pigai.png",
+        "text": "申论批改"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "images/bar-icon1/gerenzhongxin.png",
+        "selectedIconPath": "images/bar-icon2/gerenzhongxin.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
