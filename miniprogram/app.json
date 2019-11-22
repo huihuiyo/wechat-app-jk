@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/correction/correction",
-    "pages/user/user",
-    "pages/index/index"
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "dark",

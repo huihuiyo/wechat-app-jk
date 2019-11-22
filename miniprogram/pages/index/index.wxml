@@ -1,4 +1,18 @@
 <!--index.wxml-->
-<view class="container">
-  
-</view>
+<van-tabs sticky>
+  <van-tab title="视频课程">
+    <view class="courseCard" wx:for="{{dbValue}}" wx:key="{{index}}">
+      我是一板块的内容{{item.testNum}}
+    </view>
+  </van-tab>
+  <van-tab title="精品微课">
+    <view class="courseCard" wx:for="{{dbValue}}" wx:key="{{index}}">
+      我是二板块的内容{{item.testNum}}
+    </view>
+  </van-tab>
+  <van-tab title="订阅专栏">
+    <view class="courseCard" wx:for="{{dbValue}}" wx:key="{{index}}">
+      我是三板块的内容{{item.testNum}}
+    </view>
+  </van-tab>
+</van-tabs>

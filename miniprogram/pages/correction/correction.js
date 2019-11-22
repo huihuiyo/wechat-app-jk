@@ -1,18 +1,33 @@
 // pages/correction/correction.js
+const db = wx.cloud.database();
+const mydb = db.collection('mydb');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    dbValue: [],
+    current: 0
   },
-
+  swiperChange(e) {
+    if (e.detail.source == 'touch') {
+      this.setData({
+        current: e.detail.current
+      })
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    mydb.get().then(res => {
+      // console.log(res.data);
+      this.setData({
+        dbValue: res.data
+      })
+    })
   },
 
   /**

@@ -1,6 +1,13 @@
 <!--pages/correction/correction.wxml-->
-<view class="container">
-  <swiper class="">
-
+<scroll-view class="container" scroll-y="false">
+  <swiper class="swiperPart" bindchange="swiperChange" previous-margin="105rpx" next-margin="900rpx">
+    <swiper-item class="swiper-item" wx:for="{{dbValue}}" wx:key="{{index}}">
+      <view class="narrowBox">
+        <text class="testNum">我是内容
+          {{item.testNum}}</text>
+      </view>
+    </swiper-item>
   </swiper>
-</view>
+  <view class="contentCount">{{current + 1}} / {{dbValue.length}}</view>
+</scroll-view>
+

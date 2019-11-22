@@ -1,1 +1,31 @@
 /* pages/correction/correction.wxss */
+.swiperPart{
+  position: absolute;
+  width: 900px;
+  height: 85vh;
+  top: 8%;
+}
+.swiper-item {
+  height: 100%;
+  width: 100%;
+}
+.narrowBox {
+  position: absolute;
+  width: 300px;
+  height: 500px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 150px;
+  box-sizing: border-box;
+  background-color: #FFB284;
+  border-radius: 10rpx;
+  box-shadow:8rpx 10rpx 8rpx 2rpx #eaeaea;/*for Android*/
+  -webkit-box-shadow:4px 5px 4px 1px #eaeaea;/*for IOS*/
+}
+.contentCount {
+  position: absolute;
+  color: rgba(185, 174, 174, 0.993);
+  left: 50%;
+  bottom: 5%;
+  transform: translateX(-50%);
+}

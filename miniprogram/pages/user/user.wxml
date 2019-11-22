@@ -1,5 +1,5 @@
 <!--pages/user/user.wxml-->
-<view class="container">
+<scroll-view class="container" scroll-y="false">
   <view class="topPart">
     <view class="top-main"></view>
     <view class="top-css1">
@@ -14,7 +14,7 @@
   </view>
   <view class="userPart">
     <view class="user-pic">
-      <image src="../../images/login1.png"></image>
+      <image src="../../images/login.png"></image>
     </view>
     <view class="user-text">
       <text>请登录</text>
@@ -37,4 +37,4 @@
       <text class="arrow"></text>
     </view>
   </view>
-</view>
+</scroll-view>
